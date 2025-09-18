@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+
+}
+
+#about_us{
+    background-image: url("resources/coffeefarm.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+   
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    /*background-color: green;*/
+}
+
+.about_us_bg{
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    margin-top: -100px;
+    margin-left: 80px;
+}
+
+.about_us_imgdesc{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 0 20px;
+}
+
+.item_container{
+    /*background-color: red;*/
+    display: flex;
+    justify-content: center;
+
+}
+
+.name{
+    margin:20px 20px 0px 50px;
+}
+
+.price{
+    /*background-color: aqua;*/
+    margin-left: 10px;
+}
+
+.thanks{
+    text-align: end;
+    margin-right: 20px
+}
+
+.video{
+    display: flex;
+    margin: 50px 50px;
+}
+
+.footer{
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
