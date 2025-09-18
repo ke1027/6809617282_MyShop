@@ -18,6 +18,24 @@ body{
     /*background-color: green;*/
 }
 
+.btn-group .button {
+    background-color: white; /* Green */
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    border: none;
+    color: black;
+    padding:20px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+
 .about_us_bg{
     flex-grow: 0;
     display: flex;
