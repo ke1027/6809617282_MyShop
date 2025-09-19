@@ -63,12 +63,12 @@ body{
 }
 
 .name{
-    margin:20px 20px 0px 50px;
+    margin:20px 20px 20px 50px;
 }
 
 .price{
     /*background-color: aqua;*/
-    margin-left: 10px;
+    /*margin-left: 10px;*/
 }
 
 .thanks{
@@ -80,6 +80,24 @@ body{
     display: flex;
     margin: 50px 50px;
 }
+
+.product{
+    margin-right: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product_image{
+    margin: 20px;
+}
+
+.product_image:hover{
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+
 
 .footer{
     background-color: darkgrey;
