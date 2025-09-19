@@ -63,7 +63,7 @@ body{
 }
 
 .name{
-    margin:20px 20px 20px 50px;
+    margin:20px 20px 10px 50px;
 }
 
 .price{
@@ -73,7 +73,8 @@ body{
 
 .thanks{
     text-align: end;
-    margin-right: 20px
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .video{
@@ -95,7 +96,7 @@ body{
 
 .product_image:hover{
     transform: scale(1.05);
-    transition: 0.8s;
+    transition: 0.9s;
 }
 
 
